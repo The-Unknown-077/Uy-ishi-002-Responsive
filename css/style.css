@@ -63,8 +63,22 @@ a{
     list-style: none;
 }
 
+.navbar ul li{
+    transition: .4s;
+}
+
+.navbar ul li:hover{
+    scale: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    border-radius: 5px
+}
+
 .logo{
     flex: 1;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 /* hero qismi */
